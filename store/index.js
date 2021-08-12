@@ -18,7 +18,7 @@ const mutations = {
 
 const actions = {
     GET_USER_FROM_API({commit}) {
-        return axios('http://jsonplaceholder.typicode.com/posts', {
+        return axios('https://jsonplaceholder.typicode.com/posts', {
           method: "GET"
         })
           .then((users) => {
